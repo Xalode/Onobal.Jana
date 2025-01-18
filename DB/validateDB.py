@@ -1,13 +1,13 @@
-import psycopg2
+import psycopg
 
 try:
 
     db = 'jana'
     # Connect to PostgreSQL
-    connection = psycopg2.connect(
+    connection = psycopg.connect(
         dbname="postgres",
         user="yourusername",
-        password="Adivinala-",
+        password="your_password",
         host="localhost",
         port="5432"
     )

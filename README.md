@@ -5,9 +5,15 @@ virtualenv venv
 #source .venv/bin/activate
 python -m pip install --upgrade pip
 
-#pip install psycopg2 
+#pip install psycopg
+
+#pip install psycopg
 #pip install grpcio 
 #pip install grpcio-tools
+#pip install sqlalchemy
+
+
+#pip list
 
 update 
 python -m grpc_tools.protoc -Iprotos --python_out=. --pyi_out=. --grpc_python_out=. protos/helloworld.proto
